@@ -27,6 +27,14 @@ Class ServiceHelpers {
         return $response; 
     }
 
+    public function validPostResponse($result)  {
+        $response['status_code_header'] = 'HTTP/1.1 201 Created';
+        $responseArray['success'] =  TRUE;
+        unset($result['rowCount']);
+        $responseArray['rows'] = $result;
+        $response['body'] = trim(json_encode($responseArray), '[]');
+        return $response; 
+    }
     public function validViewResponse($result)  {
         $response['status_code_header'] = 'HTTP/1.1 200 OK';
         $response['body'] = json_encode($result);
