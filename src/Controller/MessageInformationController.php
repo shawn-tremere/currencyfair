@@ -71,7 +71,7 @@ class MessageInformationController {
         if (!$postResponse) {
             return $this->serviceHelper->unprocessableEntityResponse();
         }
-        return $response = $this->serviceHelper->validResponse($postResponse);
+        return $response = $this->serviceHelper->validPostResponse($postResponse);
     }
 
     private function deleteRecord($criteria) {
