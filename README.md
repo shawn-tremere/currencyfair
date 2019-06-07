@@ -2,9 +2,11 @@
 Currency Fair  Tech  Challenge
 The application is comprised of two pages.
 One page to view all the messages that are posted to the application.
+=>/CurrencyFair/Viewer/index.html
 They are viewable through a table that allows you to filter and sort all the records.
 You are also able to remove records from the table. 
 The second page has three different charts, that is pulling the information from the three different views.
+/CurrencyFair/Viewer/charts.html
 The charts are: Currency From => Total number of transactions for each different currency coming from.
                 Currency To=> Total number of transaction for each currency converting to
                 Originating Country => where the request came from.
