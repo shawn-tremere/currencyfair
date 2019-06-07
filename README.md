@@ -17,3 +17,10 @@ The charts are: Currency From => Total number of transactions for each different
  I also tried to keep the code as clean as possible. Not go crazy with any crazy nested if statements that are hard to follow.
  I tried to keep the code as clean as possible.
  I made everything a reusalbe function where I felt appropriate, where future classes would be able to implement. 
+
+I have put the application on https://shawntremere.000webhostapp.com/CurrencyFair/Viewer/index.html 
+
+The website does not allow deletes without a premium account(https://www.000webhost.com/forum/t/delete-and-put-methods-not-working/61170). 
+Viewing the application here will support all other functionality. 
+If the application is pulled down to a local environment the delete functionality will work properly. 
+Post requests can be made here: https://shawntremere.000webhostapp.com/CurrencyFair/ or /CurrencyFair/ if you pull the application down to a local environment
